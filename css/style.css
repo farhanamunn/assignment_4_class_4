@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	background:#F0FFF0;
+}
+.container{
+	max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.v_center{
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo a{
+	
+}
+.logo a img{
+	width: 198px;
+}
+nav{
+	padding: 30px 0;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-basis: 80%;
+	justify-content: flex-end;
+
+}
+nav ul li{}
+nav ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color:#000000;
+	padding: 5px 15px;
+	text-decoration: none;
+	display: block;
+	transition: .3s;
+}
+nav ul li a:hover{
+color:rgb(33, 181, 115);
+}
+
+.bannerContent{	
+	flex-basis: 50%;
+}
+.bannerContent h6{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FD511A;
+}
+.bannerContent h1{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 70px;
+	max-width: 420px;
+}
+.bannerContent h1 span{
+	color: #21B573;
+}
+.bannerContent p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+max-width: 420px;	
+}
+.btn{
+	background: #21B573;
+	border: 1px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 33px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 12px 36px;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.btn:hover{
+	background: transparent;
+	color:#21B573;
+}
+
+.bannerImage{
+	flex-basis: 50%;
+	padding: 50px 0;
+}
+.bannerImage img{
+	max-width: 100%;
+}
+
+.featureSection{
+
+}
+.col_1_4{
+	flex-basis: 25%;
+	padding: 15px;
+	box-sizing:border-box;
+}
+.feature{
+	background:#f0fff0;
+	border-radius: 10px; 
+	padding: 50px 15px;
+	text-align: center;
+	transition-duration: .3s;
+}
+ .feature span{
+ 		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: #585859;
+ }
+
+.feature:hover{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	}
+.feature img{
+	        height:85px;
+   		 	margin-bottom: 20px;	
+}
+ .feature h3{
+ 	font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #413960;
+ }
+
+ .onlinecourseSection{}
+ h2{
+ 	font-weight: 700;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	text-transform: capitalize;
+	padding: 40px 0;
+
+ }
+ .h_center{
+ 	justify-content: center;
+ }
+.col_1_3{
+	flex-basis: 33.33%;
+    padding: 15px;
+    box-sizing: border-box
+}
+.Course{
+		background: #FFFFFF;
+		box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+		border-radius: 18px;
+		padding: 20px;
+}
+.Course img{
+	max-width:100%;
+}
+.Course h3{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	margin: 8px 0;
+}
+.Course span{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	display: block;
+	 margin-bottom: 10px;
+}
+.Course a{}
+.Course a:hover{}
+.Course ul{
+	    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   margin-top: 20px;
+}
+.Course ul li{
+
+}
+.Course ul li svg{
+	width: 20px;
+	height: 20px;
+}
+.Course ul li strong{
+	font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #585859;
+} 
+
+.TestimonialSection{
+
+}
+.customer{
+	flex-basis: 10%;
+	box-sizing: border-box;
+	padding: 15px;}
+.customer img{
+	max-width: 100%;
+}
+.feedback{
+	flex-basis: 55%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.feedback p{}
+
+footer{
+	background: #282531;
+	padding-top: 50px;
+}
+.col-3-10{
+	flex-basis: 39%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.col-7-10{
+	    box-sizing: border-box;
+	    padding: 15px;
+	    flex-basis: 60%;
+	    display: flex;
+	    justify-content: space-between;
+}
+.copyright{
+	padding: 70px 0 30px;
+}
+footer p{
+	font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+}
+footer ul{
+
+}
+footer ul li{
+	list-style: none;
+}
+footer ul li a{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+color: #FFFFFF;
+text-decoration: none;
+}
+footer ul li a:hover{}
+footer ul li strong{
+	font-weight: 700;ext-decoration: none;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
